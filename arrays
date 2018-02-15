@@ -1,0 +1,30 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    bool flag=false;
+    string x,str[4];
+    cin>>x;
+    str[0] = "Ceco";
+    str[1] = "Tedi";
+    str[2] = "Boji";
+    str[3] = "Pesho";
+    for(int i=0;i<4;i++)
+    {
+        if(x==str[i])
+        {
+            flag=true;
+            break;
+        }
+    }
+    if(flag==1)
+    {
+        cout<<x<<" e gei.";
+    }else{
+        cout<<x<<" go ima.";
+    }
+}
+
+
